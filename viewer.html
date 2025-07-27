@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mosque Prayer Display</title>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body style="margin:0; background:black;">
+  <video id="video" controls autoplay style="width:100%; height:100%;"></video>
+  <script>
+    const video = document.getElementById('video');
+    const streamURL = 'http://100.67.214.36:8080/live/stream.m3u8'; // Replace this
+    if (Hls.isSupported()) {
+      const hls = new Hls();
+      hls.loadSource(streamURL);
+      hls.attachMedia(video);
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = streamURL;
+    }
+  </script>
+</body>
+</html>

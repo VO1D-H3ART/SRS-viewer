@@ -18,4 +18,8 @@ Step 4: Edit this .HTML file with the IP in the server and you are good to go.
 
 ## Tips
 
-If you are getting issues make sure to make a TCP 8080 rule on the windows fire wall. To do this you need to press Win+R and then run wf.msc from there under inbound rules you need to make a new TCP rule and allow it on all networks. This tip applies if you are on older versions of windows like Windows 10 version 1809 (Good times).
+- If you are getting issues make sure to make a TCP 8080 rule on the windows fire wall. To do this you need to press Win+R and then run wf.msc from there under inbound rules you need to make a new TCP rule and allow it on all networks. This tip applies if you are on older versions of windows like Windows 10 version 1809 (Good times).
+
+- Do not forget to change the IP line in the index.html file or else you will not see anything, only a stream buffering nothing
+
+- 

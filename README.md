@@ -16,6 +16,8 @@ Step 3: Use a custom stream link and make the stream key whatever you want
 
 Step 4: Edit this .HTML file with the IP in the server and you are good to go.
 
+(Optional) Step 5: Download [TailScale](https://tailscale.com/download/windows) for Windows (or other OS) if you have multiple subnets
+
 ## Tips
 
 - If you are getting issues make sure to make a TCP 8080 rule on the windows fire wall. To do this you need to press Win+R and then run wf.msc from there under inbound rules you need to make a new TCP rule and allow it on all networks. This tip applies if you are on older versions of windows like Windows 10 version 1809 (Good times).

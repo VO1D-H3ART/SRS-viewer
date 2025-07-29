@@ -36,7 +36,11 @@ GitHub pages will not work with this solution because it uses HTTPS while SRS us
 
 ## Using HTTP and Not HTTPS (GitHub Pages)
 
-To bypass the use of HTTPS we host the viewer.html on the SRS server itself. In order to do this Right click on the SRS desktop shortcut -> open file location -> objs -> nginx -> html and paste the viewer.html in this folder. To open this folder in the broswer you have to do **http**:// YOUR IP HERE/viewer.html DO NOT FORGET TO USE **HTTP**
+To bypass the use of HTTPS we host the viewer.html on the SRS server itself. In order to do this:
+
+Right click on the SRS desktop shortcut -> open file location -> objs -> nginx -> html and paste the viewer.html in this folder. 
+
+To open this folder in the broswer you have to do **http**:// YOUR IP HERE/viewer.html DO NOT FORGET TO USE **HTTP**
 
 
 

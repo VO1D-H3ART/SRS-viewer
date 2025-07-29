@@ -1,9 +1,9 @@
 # SRS-viewer
 A simple webviewer for steaming to SRS 
 
---- July 27th --- 
+SRS is a lightweight server that can take a stream from OBS among other things and allows them to be accessed over HTTP on a LAN/VPN
 
-This is an ultra simple webviewer for RTMP streams from OBS.
+This .html is an ultra simple webviewer for RTMP streams from OBS.
 
 ## To use this on a windows machine do the following steps
 

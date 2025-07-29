@@ -7,7 +7,7 @@ This is an ultra simple webviewer for RTMP streams from OBS.
 
 ## To use this on a windows machine do the following steps
 
-Step 1: Install the windows release of SRS found here: https://github.com/ossrs/srs/releases/tag/v5.0-r3 
+Step 1: Install the windows release of SRS found here: [SRS-GitHub-Releases](https://github.com/ossrs/srs/releases/tag/v5.0-r3) 
 
 Step 2: Run srs.exe as admin. Without this step OBS will fail to connect to the srs server.
 

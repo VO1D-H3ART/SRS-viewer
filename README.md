@@ -44,5 +44,13 @@ Right click on the SRS desktop shortcut -> open file location -> objs -> nginx -
 
 To open this folder in the broswer you have to do **http**:// YOUR IP HERE/viewer.html DO NOT FORGET TO USE **HTTP**
 
+## OBS integration
 
-
+Step 1: Install [OBS](https://obsproject.com/)
+Step 2: During setup if prompted optimize for streaming
+Step 3: Under Sources click the plus button and add a source like "Display capture"
+Step 4: Click file in the top left, then settings, navigate to stream
+Step 5: Set the service to custom and the server to rtmp:// YOUR IP HERE /live Make sure not to put the port number here
+Step 6: You need a stream key name it "stream" without the quotes
+Step 7: Press Apply and then OK
+Step 8: Make sure the SRS server is running and click start streaming. On the bottom status bar look for a green bar icon with a unit measuring kbps that means it's working

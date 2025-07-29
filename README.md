@@ -30,5 +30,13 @@ Step 4: Edit this .HTML file with the IP in the server and you are good to go.
 
 ## Local Hosting
 
-To make this solution work you MUST be on the same network or subnet. The solution I am using is [TailScale](https://tailscale.com/) its free and allows for a mesh network which means any device connected to TailScale network can "talk" to each other
+To make this solution work you MUST be on the same network or subnet. The solution I am using is [TailScale](https://tailscale.com/) its free and allows for a mesh network which means any device connected to TailScale network can "talk" to each other. Basically acting as a VPN (Virtual Private Network). So if there are diffrent subnets on your network this will help make sure you can connect to any access point and the viewer will still work
+
+GitHub pages will not work with this solution because it uses HTTPS while SRS uses HTTP. The diffrence is that HTTPS is that it's more secure therefore causes more issues in configuring the stream to work. Security should generally not be an issue because this is run locally.
+
+## Using HTTP and Not HTTPS (GitHub Pages)
+
+To bypass the use of HTTPS we host the viewer.html on the SRS server itself. In order to do this Right click on the SRS desktop shortcut -> open file location -> objs -> nginx -> html and paste the viewer.html in this folder. To open this folder in the broswer you have to do **http**:// YOUR IP HERE/viewer.html DO NOT FORGET TO USE **HTTP**
+
+
 

@@ -22,4 +22,13 @@ Step 4: Edit this .HTML file with the IP in the server and you are good to go.
 
 - Do not forget to change the IP line in the index.html file or else you will not see anything, only a stream buffering nothing
 
-- 
+- DO NOT USE GITHUB PAGES!! Look under **Local Hosting** for more info on how to host this thing.
+
+- Make sure you are on the same LAN/subnet to deploy this solution optimally
+
+
+
+## Local Hosting
+
+To make this solution work you MUST be on the same network or subnet. The solution I am using is [TailScale](https://tailscale.com/) its free and allows for a mesh network which means any device connected to TailScale network can "talk" to each other
+

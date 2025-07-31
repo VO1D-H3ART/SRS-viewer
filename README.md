@@ -16,7 +16,7 @@ Step 3: Use a custom stream link and make the stream key whatever you want
 
 Step 4: Edit this .HTML file with the IP in the server and you are good to go.
 
-(Optional) Step 5: Download [TailScale](https://tailscale.com/download/windows) for Windows (or other OS) if you have multiple subnets
+(Optional) Step 5: Download [TailScale](https://tailscale.com/download/windows) for Windows (or other OS) if you have multiple subnets/LANs
 
 ## Tips
 
@@ -61,3 +61,8 @@ Step 6: You need a stream key name it "stream" without the quotes
 Step 7: Press Apply and then OK
 
 Step 8: Make sure the SRS server is running and click start streaming. On the bottom status bar look for a green bar icon with a unit measuring kbps that means it's working
+
+
+# TODO
+
+Figure out srs WebRTC. I need a html file that will open up a WebRTC supported. Therefore I might have to for go the viewer.html in hopes of getting a lower delay
